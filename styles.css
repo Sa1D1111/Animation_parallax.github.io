@@ -64,7 +64,7 @@ body {
   left: 26%;
 }
 
-#graphql {
+#spring-react {
   width: 5%;
   bottom: 30%;
   left: 32%;
@@ -78,6 +78,26 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.ground {
+  height: 300px;
+  background-image:linear-gradient(#036cb3,rgb(66, 2, 2)) ;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.easterEgg {
+  height: 400px;
+  background-image:linear-gradient(#aa1906,#940707) ;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+
+
 
 h1 {
   color: white;
