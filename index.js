@@ -6,8 +6,9 @@ const cloudFour = document.getElementById('cloud-four')
 const cloudFive = document.getElementById('cloud-five')
 const javascript = document.getElementById('javascript')
 const react = document.getElementById('react')
-const graphql = document.getElementById('graphql')
-
+//const graphql = document.getElementById('graphql')
+const springreact = document.getElementById('spring-react')
+//const test = document.getElementById('test')
 
 
 
@@ -31,7 +32,9 @@ function move() {
   cloudFive.style.left = 60 + incrementer * 0.16 + '%'
   javascript.style.left = 20 + incrementer * -2.2 + '%'
   react.style.left = 26 + incrementer * -1.5 + '%'
-  graphql.style.left = 32 + incrementer * -1 + '%'
+  springreact.style.left = 32 + incrementer * -1 + '%'
+  //test.style.left = 32 + incrementer * -1 + '%'
+
 }
 
 window.addEventListener('scroll', move)
